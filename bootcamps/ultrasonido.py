@@ -19,3 +19,10 @@ def ultrasonido_V2():
         elif (distancia <= 10):
             cyberpi.mbot2.drive_power(0,0)
         cyberpi.console.println(distancia)   
+        
+        
+hambre = True # Verdadero
+
+if hambre: 
+    # AUTO ALIMENTANCION
+# NO comer nada :c
